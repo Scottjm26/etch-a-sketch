@@ -11,8 +11,10 @@
 <body>
     <h1>Etch A Sketch</h1>
     <header>
-        <h3>Select the size</h3>
-        <button class ="glow-on-hover" id="popup" onclick="getSize()">Select</button>
+        <h2>Select the size</h2>
+        <!-- <button class ="glow-on-hover" id="popup" onclick="getSize()">Select</button> -->
+       <h2><p id="sizeValue" class="size-value">16 x 16</p></h2>
+        <input id="sizeSlider" type="range" value="16" min="16" max="100" />
     </header>
     <p id="message"></p>
     <p id="draw"></p>
