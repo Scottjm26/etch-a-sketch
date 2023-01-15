@@ -54,6 +54,8 @@ document.querySelector("body").addEventListener("click",function(e){
 
 
 // }}
+
+// generates divs for the board
 function createBoard(size){
     let board = document.querySelector(".board");
 
